@@ -1,0 +1,16 @@
+package test;
+
+public class Sample154 {
+
+  public static void main(String[] args) {
+    Boat boat1 = new Boat();
+    Boat boat2 = new Boat();
+    
+    Boat boat3;
+    boat3 = boat1;
+    
+    System.out.println("boat1 same as boat2 ? " + boat1.equals(boat2));
+    System.out.println("boat1 same as boat3 ? " + boat1.equals(boat3));
+  }
+}
+
