@@ -4,8 +4,8 @@ This repository contains the code for the instructor-led course *"Java Programmi
 The code is shared here for educational purposes. The code was given out directly by the instructor without modification. Please check out another repository for the modified version and added notes inside. 
 
 # Course Information
-<ins>Course Code</ins>: KW08427
-<ins>Course Title</ins>: Java Programming (Elementary)
-<ins>Duration</ins>: 3 months; 12 weeks 
-<ins>Period</ins>: Sep, 2017 to Dec, 2017
-<ins>Medium of Instruction</ins>: Cantonese (a spoken Chinese language used in Hong Kong) 
+- <ins>Course Code</ins>: KW08427
+- <ins>Course Title</ins>: Java Programming (Elementary)
+- <ins>Duration</ins>: 3 months; 12 weeks 
+- <ins>Period</ins>: Sep, 2017 to Dec, 2017
+- <ins>Medium of Instruction</ins>: Cantonese (a spoken Chinese language used in Hong Kong) 
