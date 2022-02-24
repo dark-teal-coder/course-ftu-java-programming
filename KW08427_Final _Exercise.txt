@@ -1,0 +1,11 @@
+Write a Java program. 
+1) The program should allow the user to input 4 whole numbers. 
+	a) It should show which number is being input. 
+	b) Each number should be between 1 and 100. Otherwise, prompt the user to enter a new number. 
+2) The program should display the following information. 
+	a) Display all the input numbers in ascending order. 
+	b) Display the total of 4 numbers. 
+	c) Display the minimum number. 
+	d) Display the maximum number. 
+
+Email: vb1394@yahoo.com.hk
