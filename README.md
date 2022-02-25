@@ -9,3 +9,7 @@ The code is shared here for educational purposes. The code was given out directl
 - <ins>Duration</ins>: 3 months; 12 weeks 
 - <ins>Period</ins>: Sep, 2017 to Dec, 2017
 - <ins>Medium of Instruction</ins>: Cantonese (a spoken Chinese language used in Hong Kong) 
+
+<br />
+
+*Last modified date: Feb 25, 2022*
