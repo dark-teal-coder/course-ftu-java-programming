@@ -1,0 +1,13 @@
+public class Sample130 {
+
+  public static void main(String[] args) {
+    Boat boat1;
+    boat1 = new Boat();
+
+    boat1.seat = 12;
+    boat1.color = "navy";
+
+    System.out.println("Seat:" + boat1.seat);
+    System.out.println("Color:" + boat1.color);
+  }
+}

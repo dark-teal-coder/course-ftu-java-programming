@@ -1,0 +1,8 @@
+    JTextField jtxt1 = new JTextField("10");
+    jtxt1.setBounds(110, 20, 100, 20);
+    myApp.add(jtxt1);
+    
+    JTextField jtxt2 = new JTextField();
+    jtxt2.setBounds(110, 60, 100, 20);
+    jtxt2.setEditable(false);
+    myApp.add(jtxt2);

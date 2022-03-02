@@ -1,0 +1,55 @@
+public class Sample151 {
+
+  public static void main(String[] args) {
+    Boat boat1;
+    boat1 = new QuickBoat();
+
+    boat1.setSeatColor(50,"Green");
+    boat1.show();
+  }
+}
+
+
+class Boat {
+  protected int seat;
+  protected String color;
+  
+  public Boat() {
+    seat = 2;
+    color = "white";
+    System.out.println("boat created");
+  }
+  
+  public void setSeatColor(int n, String g) {
+    seat = n;
+    color = g;
+    System.out.println("Set seat to:" + seat + ", set color to:" + color);
+  }
+
+  public void show() {
+    System.out.println("Seat:" + seat);
+    System.out.println("Color:" + color);
+  }
+}
+
+class QuickBoat extends Boat {
+   private int model;
+   
+   public QuickBoat() {
+     model = 0;
+     System.out.println("quick boat created");
+   }
+
+   public void setModel(int code) {
+     model = code;
+     System.out.println("Model no:" + model);
+   }
+   
+   public void show() {
+     System.out.println("Seat:" + seat);
+     System.out.println("Color:" + color);
+     System.out.println("Model no:" + model);
+  }
+  
+
+}

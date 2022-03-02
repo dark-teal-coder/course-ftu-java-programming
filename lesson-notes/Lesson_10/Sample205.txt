@@ -1,0 +1,7 @@
+    JButton jbtn1 = new JButton("Calc");
+    jbtn1.setBounds(20, 120, 80, 30);
+    myApp.add(jbtn1);
+    
+    JButton jbtn2 = new JButton("Clear");
+    jbtn2.setBounds(110, 120, 80, 30);
+    myApp.add(jbtn2);

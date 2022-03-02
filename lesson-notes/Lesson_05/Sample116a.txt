@@ -1,0 +1,19 @@
+public class Sample116a {
+
+  public static void main(String[] args) {
+    showStars('*');
+    showStars('$');
+    showStars('A');
+  }
+
+  public static void showStars(char sym) {
+    int i, j;
+
+    for ( i = 4; i >= 1; i-- ) {
+      for ( j = i; j >= 1; j-- )
+         System.out.print(sym);
+      System.out.println();
+   }
+  }  
+
+}

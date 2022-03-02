@@ -1,0 +1,14 @@
+package test;
+
+public class Sample134 {
+
+  public static void main(String[] args) {
+    Boat boat1 = new Boat();
+
+    int seats = 8;
+    String colorSelect = "green";
+
+    boat1.setSeatColor(seats, colorSelect);
+    boat1.show();
+  }
+}

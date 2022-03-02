@@ -1,0 +1,19 @@
+class QuickBoat extends Boat {
+   private int model;
+   
+   public QuickBoat() {
+     model = 0;
+     System.out.println("quick boat created");
+   }
+
+   public void setModel(int code) {
+     model = code;
+     System.out.println("Model no:" + model);
+   }
+   
+   public void show() {
+     System.out.println("Seat:" + seat);
+     System.out.println("Color:" + color);
+     System.out.println("Model no:" + model);
+  }
+}

@@ -1,0 +1,7 @@
+      public void mouseClicked(MouseEvent e){
+        setTitle(e.getX() + "," + e.getY());
+        if (e.getX()<75)
+          jlbl1.setIcon(icon2);
+        else
+          jlbl1.setIcon(icon1);
+      }

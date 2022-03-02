@@ -1,0 +1,28 @@
+class Boat {
+  public static int count = 0;  
+  
+  private int seat;
+  private String color;
+  
+  public Boat() {
+    seat = 2;
+    color = "white";
+    count++;    
+    System.out.println("boat created");
+  }
+  
+  public void setSeatColor(int n, String g) {
+    seat = n;
+    color = g;
+    System.out.println("Set seat to:" + seat + ", set color to:" + color);
+  }
+
+  public static void showTotal() {
+    System.out.println("Total no. of boat(s)" + count);
+  }  
+  
+  public void show() {
+    System.out.println("Seat:" + seat);
+    System.out.println("Color:" + color);
+  }
+}

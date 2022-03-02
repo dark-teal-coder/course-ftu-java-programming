@@ -1,0 +1,35 @@
+class Boat {
+  private int seat;
+  private String color;
+  
+  public void setSeatColor(int n) {
+    if(n > 0 && n < 50){
+      seat = n;
+      System.out.println("Set seat to:" + seat);
+    } else{
+      System.out.println(n + " invalid seat data.");
+      System.out.println("can't change seat data.");
+    }
+  }
+  
+  public void setSeatColor(String c) {
+    color = c;
+    System.out.println("Set color to:" + color);
+  }
+  
+  public void setSeatColor(int n, String c) {
+    if(n > 0 && n < 50){
+      seat = n;
+      color = c;
+      System.out.println("Set seat to:" + seat + ", set color to:" + color);
+    } else{
+      System.out.println(n + " invalid seat data.");
+      System.out.println("can't change seat data.");
+    }
+  }
+
+  public void show() {
+    System.out.println("Seat:" + seat);
+    System.out.println("Color:" + color);
+  }
+}

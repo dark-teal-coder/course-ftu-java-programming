@@ -1,0 +1,24 @@
+class Boat {
+  int seat;
+  String color;
+
+   void setSeat(int n) {
+     seat = n;
+     System.out.println("Set seat to:" + seat);
+   }
+  
+   void setColor(String g) {
+     color = g;
+     System.out.println("Set color to:" + color);
+   }
+  
+   void show() {
+     System.out.println("Seat:" + seat);
+     System.out.println("Color:" + color);
+   }
+  
+   void showInfo() {
+     System.out.println("Information of the boat:");
+     show(); 
+   }
+}

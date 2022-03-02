@@ -1,0 +1,9 @@
+class Boat {
+  int seat;
+  String color;
+  
+  void show() {
+    System.out.println("Seat:" + seat);
+    System.out.println("Color:" + color);
+  }
+}
