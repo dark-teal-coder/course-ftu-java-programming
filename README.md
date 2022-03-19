@@ -1,3 +1,5 @@
+<!-- This is a README file for an instuctor-led course. -->
+
 # Description 
 This repository contains the code for the instructor-led course *"Java Programming (Elementary)"* (translated course title) offered at [Hong Kong Federation of Trade Unions Spare Time Study Centre (HKFTUSTSC)](https://www.hkftustsc.org/info/index2.html) during the period from Sep, 2017 to Dec, 2017. The course might not be available in your region and at the time you see this. 
 
