@@ -13,7 +13,3 @@ The code is shared here for educational purposes. There are 2 sub-directories in
 - <ins>Duration</ins>: 3 months; 12 weeks 
 - <ins>Period</ins>: Sep, 2017 to Dec, 2017
 - <ins>Medium of Instruction</ins>: Cantonese (a spoken Chinese language used in Hong Kong) 
-
-<br />
-
-*Last modified date: Mar 19, 2022*
