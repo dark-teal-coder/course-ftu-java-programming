@@ -1,4 +1,6 @@
-<!-- This is a README file for an instuctor-led course. -->
+<!-- README file for instuctor-led courses -->
+
+# Java Programming (Elementary)
 
 ## Repository Description 
 
